@@ -1,5 +1,5 @@
 {% set name = "yaqd-edaq" %}
-{% set version = "2021.5.0" %}
+{% set version = "2021.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/yaqd-edaq-{{ version }}.tar.gz
-  sha256: 171820feecdabb176530908dccdc9da2074f9db4410a6601dc7642267e07a315
+  sha256: 107caa3529e1f394d1349f95aeff42fc9e2d6c4ecbe4c97771c7f0da6f8fc63e
 
 build:
   number: 0
